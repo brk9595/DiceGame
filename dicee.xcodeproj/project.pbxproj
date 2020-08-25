@@ -12,6 +12,8 @@
 		0BF162A11F9A9A9B001712AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF1629F1F9A9A9B001712AA /* Main.storyboard */; };
 		0BF162A31F9A9A9B001712AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF162A21F9A9A9B001712AA /* Assets.xcassets */; };
 		0BF162A61F9A9A9B001712AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF162A41F9A9A9B001712AA /* LaunchScreen.storyboard */; };
+		813D464F24F515CE0021FF85 /* DiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D464E24F515CE0021FF85 /* DiceViewModel.swift */; };
+		813D465124F51BA10021FF85 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D465024F51BA10021FF85 /* Dice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0BF162A21F9A9A9B001712AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF162A51F9A9A9B001712AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF162A71F9A9A9B001712AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813D464E24F515CE0021FF85 /* DiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewModel.swift; sourceTree = "<group>"; };
+		813D465024F51BA10021FF85 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				0BF1629B1F9A9A9B001712AA /* AppDelegate.swift */,
 				0BF1629D1F9A9A9B001712AA /* ViewController.swift */,
+				813D464E24F515CE0021FF85 /* DiceViewModel.swift */,
+				813D465024F51BA10021FF85 /* Dice.swift */,
 				0BF1629F1F9A9A9B001712AA /* Main.storyboard */,
 				0BF162A21F9A9A9B001712AA /* Assets.xcassets */,
 				0BF162A41F9A9A9B001712AA /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF1629E1F9A9A9B001712AA /* ViewController.swift in Sources */,
+				813D464F24F515CE0021FF85 /* DiceViewModel.swift in Sources */,
+				813D465124F51BA10021FF85 /* Dice.swift in Sources */,
 				0BF1629C1F9A9A9B001712AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
